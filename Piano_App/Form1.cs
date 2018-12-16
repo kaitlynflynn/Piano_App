@@ -41,6 +41,7 @@ namespace Piano_App
             }
         }
 
+        /* Functionality for G note */
         private void button5_Click(object sender, EventArgs e)
         {
             if (radioButton1.Checked)
@@ -63,6 +64,7 @@ namespace Piano_App
             }
         }
 
+        /* Functionality for A note */
         private void button6_Click(object sender, EventArgs e)
         {   /* Console Note Sound */
             if (radioButton1.Checked)
@@ -85,6 +87,7 @@ namespace Piano_App
             }
         }
 
+        /* Functionality for Upper C note */
         private void button8_Click(object sender, EventArgs e)
         {   /* Console Note Sound */
             if (radioButton1.Checked)
@@ -107,6 +110,7 @@ namespace Piano_App
             }
         }
 
+        /* Functionality for Upper D note */
         private void button9_Click(object sender, EventArgs e)
         {   /* Console Note Sound */
             if (radioButton1.Checked)
@@ -129,6 +133,7 @@ namespace Piano_App
             }
         }
 
+        /* Functionality for Upper E note */
         private void button10_Click(object sender, EventArgs e)
         {   /* Console Note Sound */
             if (radioButton1.Checked)
@@ -197,6 +202,7 @@ namespace Piano_App
             }
         }
 
+        /* Functionality for F note */
         private void button4_Click(object sender, EventArgs e)
         {   /* Console Note Sound */
             if (radioButton1.Checked)
@@ -219,6 +225,7 @@ namespace Piano_App
             }
         }
 
+        /* Functionality for B note */
         private void button7_Click(object sender, EventArgs e)
         {   /* Console Note Sound */
             if (radioButton1.Checked)
@@ -236,6 +243,52 @@ namespace Piano_App
             if (radioButton3.Checked)
             {
                 System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.B_Drum);
+                player.Load();
+                player.PlaySync();
+            }
+        }
+
+        /* Functionality for Upper F note */
+        private void button11_Click(object sender, EventArgs e)
+        {   /* Console Note Sound */
+            if (radioButton1.Checked)
+            {
+                Console.Beep(750, 500);
+            }
+            /* Music Note Sound */
+            if (radioButton2.Checked)
+            {
+                System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.F1);
+                player.Load();
+                player.PlaySync();
+            }
+            /* Steel Drum Sound */
+            if (radioButton3.Checked)
+            {
+                System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.F1_Drum);
+                player.Load();
+                player.PlaySync();
+            }
+        }
+
+        /* Functionality for C# note */
+        private void button1_Click_1(object sender, EventArgs e)
+        {   /* Console Note Sound */
+            if (radioButton1.Checked)
+            {
+                Console.Beep(800, 500);
+            }
+            /* Music Note Sound */
+            if (radioButton2.Checked)
+            {
+                System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.C_s);
+                player.Load();
+                player.PlaySync();
+            }
+            /* Steel Drum Sound */
+            if (radioButton3.Checked)
+            {
+                System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.Cq_Drum);
                 player.Load();
                 player.PlaySync();
             }
