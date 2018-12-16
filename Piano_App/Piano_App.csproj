@@ -54,6 +54,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -72,9 +76,118 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\Music_Note.zip" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A_Drum.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\B.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\B_Drum.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bb.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bb_Drum.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C_Drum.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C_s.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C_s1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C1_Drum.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cq_Drum.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cq1_Drum.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D_Drum.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D_s.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D_s1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D1_Drum.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dq_Drum.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dq1_Drum.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E_Drum.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E1_Drum.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F_Drum.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F_s.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F1_Drum.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fq_Drum.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G_Drum.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G_s.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gq_Drum.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
