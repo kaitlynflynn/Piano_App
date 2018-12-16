@@ -64,8 +64,25 @@ namespace Piano_App
         }
 
         private void button6_Click(object sender, EventArgs e)
-        {
-
+        {   /* Console Note Sound */
+            if (radioButton1.Checked)
+            {
+                Console.Beep(500, 500);
+            }
+            /* Music Note Sound */
+            if (radioButton2.Checked)
+            {
+                System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.A);
+                player.Load();
+                player.PlaySync();
+            }
+            /* Steel Drum Sound */
+            if (radioButton3.Checked)
+            {
+                System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.A_Drum);
+                player.Load();
+                player.PlaySync();
+            }
         }
 
         private void button8_Click(object sender, EventArgs e)
