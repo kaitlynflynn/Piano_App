@@ -111,5 +111,27 @@ namespace Piano_App
                 player.PlaySync();
             }
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {   /* Console Note Sound */
+            if (radioButton1.Checked)
+            {
+                Console.Beep(400, 500);
+            }
+            /* Music Note Sound */
+            if (radioButton2.Checked)
+            {
+                System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.F);
+                player.Load();
+                player.PlaySync();
+            }
+            /* Steel Drum Sound */
+            if (radioButton3.Checked)
+            {
+                System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.F_Drum);
+                player.Load();
+                player.PlaySync();
+            }
+        }
     }
 }
