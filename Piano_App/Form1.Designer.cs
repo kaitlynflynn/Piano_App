@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.button0 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -48,14 +49,18 @@
             this.button17 = new System.Windows.Forms.Button();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // button0
             // 
             this.button0.BackColor = System.Drawing.Color.White;
             this.button0.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button0.Location = new System.Drawing.Point(12, 145);
+            this.button0.Location = new System.Drawing.Point(33, 219);
             this.button0.Name = "button0";
             this.button0.Size = new System.Drawing.Size(93, 354);
             this.button0.TabIndex = 0;
@@ -69,7 +74,7 @@
             this.button2.BackColor = System.Drawing.Color.White;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button2.Location = new System.Drawing.Point(111, 145);
+            this.button2.Location = new System.Drawing.Point(132, 219);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(93, 354);
             this.button2.TabIndex = 1;
@@ -82,7 +87,7 @@
             // 
             this.button3.BackColor = System.Drawing.Color.White;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(210, 145);
+            this.button3.Location = new System.Drawing.Point(231, 219);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(93, 354);
             this.button3.TabIndex = 2;
@@ -95,7 +100,7 @@
             // 
             this.button4.BackColor = System.Drawing.Color.White;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(309, 145);
+            this.button4.Location = new System.Drawing.Point(330, 219);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(93, 354);
             this.button4.TabIndex = 3;
@@ -108,7 +113,7 @@
             // 
             this.button5.BackColor = System.Drawing.Color.White;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(408, 145);
+            this.button5.Location = new System.Drawing.Point(429, 219);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(93, 354);
             this.button5.TabIndex = 4;
@@ -121,7 +126,7 @@
             // 
             this.button6.BackColor = System.Drawing.Color.White;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(507, 145);
+            this.button6.Location = new System.Drawing.Point(528, 219);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(93, 354);
             this.button6.TabIndex = 5;
@@ -134,7 +139,7 @@
             // 
             this.button7.BackColor = System.Drawing.Color.White;
             this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(606, 145);
+            this.button7.Location = new System.Drawing.Point(627, 219);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(93, 354);
             this.button7.TabIndex = 6;
@@ -147,7 +152,7 @@
             // 
             this.button8.BackColor = System.Drawing.Color.White;
             this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(705, 145);
+            this.button8.Location = new System.Drawing.Point(726, 219);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(93, 354);
             this.button8.TabIndex = 7;
@@ -160,7 +165,7 @@
             // 
             this.button9.BackColor = System.Drawing.Color.White;
             this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(804, 145);
+            this.button9.Location = new System.Drawing.Point(825, 219);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(93, 354);
             this.button9.TabIndex = 8;
@@ -173,7 +178,7 @@
             // 
             this.button10.BackColor = System.Drawing.Color.White;
             this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.Location = new System.Drawing.Point(903, 145);
+            this.button10.Location = new System.Drawing.Point(924, 219);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(93, 354);
             this.button10.TabIndex = 9;
@@ -186,7 +191,7 @@
             // 
             this.button11.BackColor = System.Drawing.Color.White;
             this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.Location = new System.Drawing.Point(1002, 145);
+            this.button11.Location = new System.Drawing.Point(1023, 219);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(93, 354);
             this.button11.TabIndex = 10;
@@ -200,7 +205,7 @@
             this.button1.BackColor = System.Drawing.Color.Black;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(73, 145);
+            this.button1.Location = new System.Drawing.Point(94, 219);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(67, 231);
             this.button1.TabIndex = 11;
@@ -214,7 +219,7 @@
             this.button12.BackColor = System.Drawing.Color.Black;
             this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button12.ForeColor = System.Drawing.Color.White;
-            this.button12.Location = new System.Drawing.Point(172, 145);
+            this.button12.Location = new System.Drawing.Point(193, 219);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(67, 231);
             this.button12.TabIndex = 12;
@@ -228,7 +233,7 @@
             this.button13.BackColor = System.Drawing.Color.Black;
             this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button13.ForeColor = System.Drawing.Color.White;
-            this.button13.Location = new System.Drawing.Point(372, 145);
+            this.button13.Location = new System.Drawing.Point(393, 219);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(67, 231);
             this.button13.TabIndex = 13;
@@ -242,7 +247,7 @@
             this.button14.BackColor = System.Drawing.Color.Black;
             this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button14.ForeColor = System.Drawing.Color.White;
-            this.button14.Location = new System.Drawing.Point(475, 145);
+            this.button14.Location = new System.Drawing.Point(496, 219);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(67, 231);
             this.button14.TabIndex = 14;
@@ -256,7 +261,7 @@
             this.button15.BackColor = System.Drawing.Color.Black;
             this.button15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button15.ForeColor = System.Drawing.Color.White;
-            this.button15.Location = new System.Drawing.Point(570, 145);
+            this.button15.Location = new System.Drawing.Point(591, 219);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(67, 231);
             this.button15.TabIndex = 15;
@@ -270,7 +275,7 @@
             this.button16.BackColor = System.Drawing.Color.Black;
             this.button16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button16.ForeColor = System.Drawing.Color.White;
-            this.button16.Location = new System.Drawing.Point(770, 145);
+            this.button16.Location = new System.Drawing.Point(791, 219);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(67, 231);
             this.button16.TabIndex = 16;
@@ -284,7 +289,7 @@
             this.button17.BackColor = System.Drawing.Color.Black;
             this.button17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button17.ForeColor = System.Drawing.Color.White;
-            this.button17.Location = new System.Drawing.Point(865, 145);
+            this.button17.Location = new System.Drawing.Point(886, 219);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(67, 231);
             this.button17.TabIndex = 17;
@@ -298,48 +303,106 @@
             this.radioButton1.Appearance = System.Windows.Forms.Appearance.Button;
             this.radioButton1.AutoSize = true;
             this.radioButton1.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("radioButton1.BackgroundImage")));
             this.radioButton1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.radioButton1.Location = new System.Drawing.Point(17, 78);
+            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton1.ForeColor = System.Drawing.Color.White;
+            this.radioButton1.Location = new System.Drawing.Point(980, 135);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(123, 30);
+            this.radioButton1.Size = new System.Drawing.Size(136, 30);
             this.radioButton1.TabIndex = 18;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Console Notes";
+            this.radioButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.radioButton1.UseVisualStyleBackColor = false;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // radioButton2
             // 
             this.radioButton2.Appearance = System.Windows.Forms.Appearance.Button;
             this.radioButton2.AutoSize = true;
             this.radioButton2.BackColor = System.Drawing.Color.Transparent;
-            this.radioButton2.Location = new System.Drawing.Point(197, 78);
+            this.radioButton2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("radioButton2.BackgroundImage")));
+            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton2.ForeColor = System.Drawing.Color.White;
+            this.radioButton2.Location = new System.Drawing.Point(999, 37);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(106, 30);
+            this.radioButton2.Size = new System.Drawing.Size(117, 30);
             this.radioButton2.TabIndex = 19;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Music Notes";
+            this.radioButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.radioButton2.UseVisualStyleBackColor = false;
             // 
-            // radioButton3
+            // textBox1
             // 
-            this.radioButton3.Appearance = System.Windows.Forms.Appearance.Button;
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.BackColor = System.Drawing.Color.Transparent;
-            this.radioButton3.Location = new System.Drawing.Point(372, 78);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(145, 30);
-            this.radioButton3.TabIndex = 20;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Steel Drum Notes";
-            this.radioButton3.UseVisualStyleBackColor = false;
+            this.textBox1.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Pristina", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.White;
+            this.textBox1.Location = new System.Drawing.Point(23, 14);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(291, 53);
+            this.textBox1.TabIndex = 21;
+            this.textBox1.Text = "K-Fly\'s Piano App";
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(408, 64);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(282, 82);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 22;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.ForeColor = System.Drawing.Color.White;
+            this.textBox2.Location = new System.Drawing.Point(33, 99);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(281, 81);
+            this.textBox2.TabIndex = 23;
+            this.textBox2.Text = "Select which type of notes \r\nyou want by clicking one of \r\nthe buttons on the rig" +
+    "ht.";
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            // 
+            // radioButton4
+            // 
+            this.radioButton4.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton4.AutoSize = true;
+            this.radioButton4.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("radioButton4.BackgroundImage")));
+            this.radioButton4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.radioButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton4.ForeColor = System.Drawing.Color.White;
+            this.radioButton4.Location = new System.Drawing.Point(1007, 86);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.Size = new System.Drawing.Size(109, 30);
+            this.radioButton4.TabIndex = 24;
+            this.radioButton4.TabStop = true;
+            this.radioButton4.Text = "Steel Drum";
+            this.radioButton4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton4.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.ClientSize = new System.Drawing.Size(1106, 514);
-            this.Controls.Add(this.radioButton3);
+            this.ClientSize = new System.Drawing.Size(1148, 595);
+            this.Controls.Add(this.radioButton4);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.button17);
@@ -362,6 +425,7 @@
             this.Controls.Add(this.button0);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -389,7 +453,10 @@
         private System.Windows.Forms.Button button17;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.RadioButton radioButton4;
     }
 }
 

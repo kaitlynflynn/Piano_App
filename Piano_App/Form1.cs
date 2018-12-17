@@ -33,7 +33,7 @@ namespace Piano_App
                 player.PlaySync();
             }
             /* Steel Drum Sound */
-            if (radioButton3.Checked)
+            if (radioButton4.Checked)
             {
                 System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.C_Drum);
                 player.Load();
@@ -56,7 +56,7 @@ namespace Piano_App
                 player.PlaySync();
             }
             /* Steel Drum Sound */
-            if (radioButton3.Checked)
+            if (radioButton4.Checked)
             {
                 System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.G_Drum);
                 player.Load();
@@ -79,7 +79,7 @@ namespace Piano_App
                 player.PlaySync();
             }
             /* Steel Drum Sound */
-            if (radioButton3.Checked)
+            if (radioButton4.Checked)
             {
                 System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.A_Drum);
                 player.Load();
@@ -102,7 +102,7 @@ namespace Piano_App
                 player.PlaySync();
             }
             /* Steel Drum Sound */
-            if (radioButton3.Checked)
+            if (radioButton4.Checked)
             {
                 System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.C1_Drum);
                 player.Load();
@@ -125,7 +125,7 @@ namespace Piano_App
                 player.PlaySync();
             }
             /* Steel Drum Sound */
-            if (radioButton3.Checked)
+            if (radioButton4.Checked)
             {
                 System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.D1_Drum);
                 player.Load();
@@ -148,7 +148,7 @@ namespace Piano_App
                 player.PlaySync();
             }
             /* Steel Drum Sound */
-            if (radioButton3.Checked)
+            if (radioButton4.Checked)
             {
                 System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.E1_Drum);
                 player.Load();
@@ -171,7 +171,7 @@ namespace Piano_App
                 player.PlaySync();
             }
             /* Steel Drum Sound */
-            if (radioButton3.Checked)
+            if (radioButton4.Checked)
             {
                 System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.D_Drum);
                 player.Load();
@@ -194,7 +194,7 @@ namespace Piano_App
                 player.PlaySync();
             }
             /* Steel Drum Sound */
-            if (radioButton3.Checked)
+            if (radioButton4.Checked)
             {
                 System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.E_Drum);
                 player.Load();
@@ -217,7 +217,7 @@ namespace Piano_App
                 player.PlaySync();
             }
             /* Steel Drum Sound */
-            if (radioButton3.Checked)
+            if (radioButton4.Checked)
             {
                 System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.F_Drum);
                 player.Load();
@@ -240,7 +240,7 @@ namespace Piano_App
                 player.PlaySync();
             }
             /* Steel Drum Sound */
-            if (radioButton3.Checked)
+            if (radioButton4.Checked)
             {
                 System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.B_Drum);
                 player.Load();
@@ -263,7 +263,7 @@ namespace Piano_App
                 player.PlaySync();
             }
             /* Steel Drum Sound */
-            if (radioButton3.Checked)
+            if (radioButton4.Checked)
             {
                 System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.F1_Drum);
                 player.Load();
@@ -286,7 +286,7 @@ namespace Piano_App
                 player.PlaySync();
             }
             /* Steel Drum Sound */
-            if (radioButton3.Checked)
+            if (radioButton4.Checked)
             {
                 System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.Cq_Drum);
                 player.Load();
@@ -309,7 +309,7 @@ namespace Piano_App
                 player.PlaySync();
             }
             /* Steel Drum Sound */
-            if (radioButton3.Checked)
+            if (radioButton4.Checked)
             {
                 System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.Dq_Drum);
                 player.Load();
@@ -332,7 +332,7 @@ namespace Piano_App
                 player.PlaySync();
             }
             /* Steel Drum Sound */
-            if (radioButton3.Checked)
+            if (radioButton4.Checked)
             {
                 System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.Fq_Drum);
                 player.Load();
@@ -355,7 +355,7 @@ namespace Piano_App
                 player.PlaySync();
             }
             /* Steel Drum Sound */
-            if (radioButton3.Checked)
+            if (radioButton4.Checked)
             {
                 System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.Gq_Drum);
                 player.Load();
@@ -378,7 +378,7 @@ namespace Piano_App
                 player.PlaySync();
             }
             /* Steel Drum Sound */
-            if (radioButton3.Checked)
+            if (radioButton4.Checked)
             {
                 System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.Bb_Drum);
                 player.Load();
@@ -401,7 +401,7 @@ namespace Piano_App
                 player.PlaySync();
             }
             /* Steel Drum Sound */
-            if (radioButton3.Checked)
+            if (radioButton4.Checked)
             {
                 System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.Cq1_Drum);
                 player.Load();
@@ -424,12 +424,32 @@ namespace Piano_App
                 player.PlaySync();
             }
             /* Steel Drum Sound */
-            if (radioButton3.Checked)
+            if (radioButton4.Checked)
             {
                 System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.Dq1_Drum);
                 player.Load();
                 player.PlaySync();
             }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
