@@ -291,6 +291,7 @@
             this.button17.Text = "D#2";
             this.button17.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button17.UseVisualStyleBackColor = false;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // radioButton1
             // 

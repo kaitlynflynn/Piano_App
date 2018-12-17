@@ -408,5 +408,28 @@ namespace Piano_App
                 player.PlaySync();
             }
         }
+
+        /* Functionality for D#1 note */
+        private void button17_Click(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked)
+            {
+                Console.Beep(2000, 500);
+            }
+            /* Music Note Sound */
+            if (radioButton2.Checked)
+            {
+                System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.D_s1);
+                player.Load();
+                player.PlaySync();
+            }
+            /* Steel Drum Sound */
+            if (radioButton3.Checked)
+            {
+                System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.Dq1_Drum);
+                player.Load();
+                player.PlaySync();
+            }
+        }
     }
 }
