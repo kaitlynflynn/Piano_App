@@ -385,5 +385,28 @@ namespace Piano_App
                 player.PlaySync();
             }
         }
+
+        /* Functionality for C#1 note */
+        private void button16_Click(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked)
+            {
+                Console.Beep(1050, 500);
+            }
+            /* Music Note Sound */
+            if (radioButton2.Checked)
+            {
+                System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.C_s1);
+                player.Load();
+                player.PlaySync();
+            }
+            /* Steel Drum Sound */
+            if (radioButton3.Checked)
+            {
+                System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.Cq1_Drum);
+                player.Load();
+                player.PlaySync();
+            }
+        }
     }
 }
