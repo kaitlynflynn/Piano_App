@@ -263,6 +263,7 @@
             this.button15.Text = "Bb";
             this.button15.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button15.UseVisualStyleBackColor = false;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // button16
             // 

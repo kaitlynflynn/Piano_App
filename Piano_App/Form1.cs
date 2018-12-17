@@ -362,5 +362,28 @@ namespace Piano_App
                 player.PlaySync();
             }
         }
+
+        /* Functionality for Bb note */
+        private void button15_Click(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked)
+            {
+                Console.Beep(1000, 500);
+            }
+            /* Music Note Sound */
+            if (radioButton2.Checked)
+            {
+                System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.Bb);
+                player.Load();
+                player.PlaySync();
+            }
+            /* Steel Drum Sound */
+            if (radioButton3.Checked)
+            {
+                System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.Bb_Drum);
+                player.Load();
+                player.PlaySync();
+            }
+        }
     }
 }
