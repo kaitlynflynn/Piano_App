@@ -3,3 +3,9 @@ I've been playing piano since age 4 so I thought it would be fun to try creating
 
 # Steps to take for Running this App on Laptop/PC
 Coming Soon!
+
+## Built With
+For this application I built this entirely with the following:
+* [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
+* [Visual Studio 2017](https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio?view=vs-2017)
+###### Fun Fact: The keys of the keyboard were built within the Design Form of VS2017 by inserting buttons from the toolbox & then sizing and coloring them accordingly :smile:
