@@ -1,14 +1,17 @@
 # Piano_App
 I've been playing piano since age 4 so I thought it would be fun to try creating a Piano App for my first C# project! This is my first time builing a Windows Forms App utilizing Visual Studio 2017 which is quite exciting. If you follow the steps below, you should be able to run a version of it to your own laptop/PC. Enjoy! 
 
+###### *Here is a pic of me around age 4 and age 17* 
+![piano me](https://user-images.githubusercontent.com/32024309/50258759-e657fa00-03b5-11e9-9511-9fa300013953.jpg)
+
 ## Steps to take for Running this App on Laptop/PC
 1. Make sure you have Visual Studio installed on your computer *(this was built using Visual Studio 2017; if you need to install, go to the link for this in the "BUILT WITH" section below and download for free)*
 2. Go to the repo you want to clone on GitHub. 
 3. Choose the **Clone or download** button and then choose the **Copy to Clipboard** button from the dropdown menu to copy the secure URL for the GitHub repo. 
-![clone & download](https://user-images.githubusercontent.com/32024309/50258294-e0611980-03b3-11e9-92ab-a3acbdf03079.png)
+<br>![clone & download](https://user-images.githubusercontent.com/32024309/50258294-e0611980-03b3-11e9-92ab-a3acbdf03079.png)
 4. In Visual Studio, choose the **Team Explorer** tab to open **Team Explorer**. If you do not see the tab, open it from **View > Team Explorer.**
 5. In Team Explorer, under the **Local Git Repositories** section, choose the **Clone** command and then paste the URL of the GitHub page into the text box. 
-![clone pic](https://user-images.githubusercontent.com/32024309/50258298-e3f4a080-03b3-11e9-8ec9-7a058214e351.png)
+<br>![clone pic](https://user-images.githubusercontent.com/32024309/50258298-e3f4a080-03b3-11e9-8ec9-7a058214e351.png)
 6. Choose the **Clone** button to clone the project files to a local Git repository. Depending on the size of the repo, this process may take several minutes. 
 7. After the repo has been cloned to your system, in **Team Explorer** choose the **Open** command on the context (right-click) menu of the newly cloned repo.<br>
 ![open pic](https://user-images.githubusercontent.com/32024309/50258299-e656fa80-03b3-11e9-8b66-05a87f0bd04c.png)
