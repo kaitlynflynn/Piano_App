@@ -4,6 +4,12 @@ I've been playing piano since age 4 so I thought it would be fun to try creating
 ###### *Here is a pic of me around age 4 and age 17* 
 ![piano me](https://user-images.githubusercontent.com/32024309/50258759-e657fa00-03b5-11e9-9511-9fa300013953.jpg)
 
+### Demo of App 
+Click the image to view a Demo of the App in action!
+[![Demo Video](https://user-images.githubusercontent.com/32024309/50259086-78accd80-03b7-11e9-9823-5075057ce2c3.png)](https://youtu.be/yjalAs-l4V0)
+
+###### BONUS Points if you can guess what song this goes to :smile: [Click Here To Listen](https://youtu.be/P0GBHFVxHRQ)
+
 ## Steps to take for Running this App on Laptop/PC
 1. Make sure you have Visual Studio installed on your computer *(this was built using Visual Studio 2017; if you need to install, go to the link for this in the "BUILT WITH" section below and download for free)*
 2. Go to the repo you want to clone on GitHub. 
