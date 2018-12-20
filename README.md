@@ -1,9 +1,6 @@
 # Piano_App
 I've been playing piano since age 4 so I thought it would be fun to try creating a Piano App for my first C# project! This is my first time builing a Windows Forms App utilizing Visual Studio 2017 which is quite exciting. If you follow the steps below, you should be able to run a version of it to your own laptop/PC. Enjoy! 
 
-###### *Here is a pic of me around age 4 and age 17* 
-![piano me](https://user-images.githubusercontent.com/32024309/50258759-e657fa00-03b5-11e9-9511-9fa300013953.jpg)
-
 ### Demo of App 
 Click the image to view a Demo of the App in action!
 [![Demo Video](https://user-images.githubusercontent.com/32024309/50259086-78accd80-03b7-11e9-9823-5075057ce2c3.png)](https://youtu.be/yjalAs-l4V0)
@@ -33,3 +30,6 @@ For this application I built this entirely with the following:
 
 ## Author
 * [Kaitlyn Flynn](https://kaitlynflynn.com/)
+
+###### *Here is a pic of me around age 4 and age 17* 
+![piano me](https://user-images.githubusercontent.com/32024309/50258759-e657fa00-03b5-11e9-9511-9fa300013953.jpg)
